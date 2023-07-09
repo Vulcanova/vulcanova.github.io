@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Image from "next/image";
+import NavBar from "@/components/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,21 +19,10 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${inter.className} bg-background flex max-w-screen-2xl mx-auto p-5 md:p-10 flex-col min-h-screen`}
+        className={`${inter.className} bg-background flex max-w-screen-2xl mx-auto flex-col min-h-screen`}
       >
-        <nav>
-          <div className="flex items-center">
-            <Image
-              src="vulcanova.svg"
-              alt=""
-              height="42"
-              width="42"
-              className="rounded-lg shadow-logoShadow shadow-primary/10"
-            />
-            <p className="font-bold ml-4">Vulcanova</p>
-          </div>
-        </nav>
-        {children}
+        <NavBar />
+        <div className="p-5 md:p-10 flex flex-col">{children}</div>
       </body>
     </html>
   );
