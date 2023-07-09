@@ -22,7 +22,7 @@ export default function RootLayout({
         className={`${inter.className} bg-background flex max-w-screen-2xl mx-auto flex-col min-h-screen`}
       >
         <NavBar />
-        <div className="p-5 md:p-10 flex flex-col">{children}</div>
+        <div className="p-5 md:p-10 flex flex-col flex-grow">{children}</div>
       </body>
     </html>
   );
