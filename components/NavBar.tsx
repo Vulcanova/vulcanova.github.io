@@ -36,8 +36,8 @@ const NavBar = () => {
   return (
     <nav
       ref={elementRef}
-      className={`sticky p-5 top-0 z-10 ${
-        scrolled && "bg-background bg-opacity-80 backdrop-blur"
+      className={`sticky p-5 top-0 z-10 transition bg-background backdrop-blur ${
+        scrolled ? "bg-opacity-80" : "bg-opacity-100"
       }`}
     >
       <div className="flex items-center">
