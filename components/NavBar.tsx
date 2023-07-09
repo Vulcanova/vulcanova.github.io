@@ -4,16 +4,11 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 const NavBar = () => {
-  const elementRef = useRef<HTMLElement>(null);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    if (!elementRef.current) return;
-
-    const element = elementRef.current;
-
     const listener = () => {
-      const selfHeight = element.clientHeight;
+      const selfHeight = 10;
 
       if (window.scrollY > selfHeight) {
         setScrolled(true);
@@ -24,18 +19,13 @@ const NavBar = () => {
 
     document.addEventListener("scroll", listener);
 
-    const resizeObserver = new ResizeObserver(listener);
-    resizeObserver.observe(element);
-
     return () => {
       document.removeEventListener("scroll", listener);
-      resizeObserver.unobserve(element);
     };
   }, []);
 
   return (
     <nav
-      ref={elementRef}
       className={`sticky p-5 top-0 z-10 transition bg-background backdrop-blur ${
         scrolled ? "bg-opacity-80" : "bg-opacity-100"
       }`}
