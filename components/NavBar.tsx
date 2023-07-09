@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 const NavBar = () => {
   const elementRef = useRef<HTMLElement>(null);
-  const [scrolled, setScrolled] = useState(window.scrollY > 0);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     if (!elementRef.current) return;
