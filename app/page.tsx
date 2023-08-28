@@ -22,10 +22,10 @@ export default function Home() {
           </div>
           <a
             className="bg-primary px-9 py-4 rounded-2xl text-white font-bold inline-block shadow-lg shadow-primary/50"
-            href="https://forms.gle/FooQAdH2CaE5stQ7A"
+            href="https://testflight.apple.com/join/fGMjqr58"
             target="_blank"
           >
-            Zapisz się do beta testów
+            Dołącz do beta testów
           </a>
           <a
             href="https://github.com/Vulcanova/Vulcanova/actions/workflows/ios.yml"
