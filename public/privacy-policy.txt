@@ -1,0 +1,14 @@
+Polityka prywatności
+
+Niniejsza Polityka Prywatności określa sposób zbierania, przetwarzania i przechowywania danych osobowych koniecznych 
+do realizacji usług świadczonych za pośrednictwem aplikacji mobilnej Vulcanova (zwanej dalej „Aplikacją”).
+
+1. Aplikacja umożliwia odczyt danych z dziennika UONET+.
+2. Dane zebrane z dziennika UONET+ mogą być przechowywane lokalnie na urządzeniu użytkownika.
+3. W celach diagnostycznych oraz statystycznych Aplikacja zbiera za pomocą usługi AppCenter firmy Microsoft
+   dane takie jak:
+       a) raporty błędów,
+       b) anonimowe statystyki sesji użytkownika.
+4. Polityka Prywatności może w przyszłości ulegać zmianie, o czym użytkownicy Aplikacji zostaną poinformowani w Aplikacji.
+   Ostatnia zmiana: 6.01.2024 r.
+5. Wszelkie pytania oraz wątpliwości odnośnie Polityki Prywatności należy kierować na adres e-mail vulcanova@romanowski.me
