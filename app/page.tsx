@@ -22,7 +22,7 @@ export default function Home() {
             </h2>
           </div>
           <a
-            className="block"
+            className="flex md:justify-start justify-center"
             href="https://apps.apple.com/pl/app/vulcanova/id6451334441"
             target="_blank"
           >
