@@ -51,7 +51,7 @@ export default function Home() {
           />
         </div>
       </main>
-      <section className="flex justify-center flex-col items-center space-y-5">
+      <section className="flex justify-center flex-col items-center space-y-5 py-5">
         <h2 className="text-center text-3xl font-bold">Kontakt</h2>
         <div className="space-y-5 flex flex-col text-center items-center">
           <div className="md:w-1/2 w-full space-y-2">
