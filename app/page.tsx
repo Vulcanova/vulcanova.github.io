@@ -1,5 +1,6 @@
 import Image from "next/image";
 import screenshot from "../public/screenshot.png";
+import appstore from "../public/app-store.svg";
 import lineOrnaments from "../public/lines-ornament.svg";
 import triangleOrnaments from "../public/triangles-ornament.svg";
 
@@ -21,18 +22,18 @@ export default function Home() {
             </h2>
           </div>
           <a
-            className="bg-primary px-9 py-4 rounded-2xl text-white font-bold inline-block shadow-lg shadow-primary/50"
-            href="https://testflight.apple.com/join/fGMjqr58"
+            className="block"
+            href="https://apps.apple.com/pl/app/vulcanova/id6451334441"
             target="_blank"
           >
-            Dołącz do beta testów
+            <Image src={appstore} alt="Pobierz w App Store" />
           </a>
           <a
-            href="https://github.com/Vulcanova/Vulcanova/actions/workflows/ios.yml"
+            href="https://testflight.apple.com/join/fGMjqr58"
             className="text-primary underline inline-block"
             target="_blank"
           >
-            Lubisz życie na krawędzi? Pobierz wersję deweloperską już teraz!
+            Lubisz życie na krawędzi? Dołącz do beta testów już teraz!
           </a>
           <Image
             src={lineOrnaments}
