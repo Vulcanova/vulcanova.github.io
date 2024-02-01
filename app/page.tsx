@@ -26,7 +26,7 @@ export default function Home() {
             href="https://apps.apple.com/pl/app/vulcanova/id6451334441"
             target="_blank"
           >
-            <Image src={appstore} alt="Download on the App Store" />
+            <Image src={appstore} alt="Pobierz w App Store" />
           </a>
           <a
             href="https://testflight.apple.com/join/fGMjqr58"
