@@ -1,6 +1,6 @@
 import Image from "next/image";
 import screenshot from "../public/screenshot.png";
-import appstore from "../public/AppStore.svg";
+import appstore from "../public/app-store.svg";
 import lineOrnaments from "../public/lines-ornament.svg";
 import triangleOrnaments from "../public/triangles-ornament.svg";
 
@@ -22,15 +22,11 @@ export default function Home() {
             </h2>
           </div>
           <a
-            className="px-12 py-4 inline-block"
+            className="block"
             href="https://apps.apple.com/pl/app/vulcanova/id6451334441"
             target="_blank"
           >
-            <Image
-            src={appstore}
-            alt=""
-            width={200}
-            />
+            <Image src={appstore} alt="Download on the App Store" />
           </a>
           <a
             href="https://testflight.apple.com/join/fGMjqr58"
