@@ -7,7 +7,7 @@ import triangleOrnaments from "../public/triangles-ornament.svg";
 export default function Home() {
   return (
     <div>
-      <main className="flex flex-grow items-center flex-col-reverse md:flex-row justify-center min-h-screen py-10 p-5 md:p-10">
+      <main className="flex flex-grow items-center flex-col-reverse md:flex-row justify-center min-h-screen p-5 md:p-10">
         <div className="md:w-1/2 w-full">
           <div className="space-y-9 relative text-center md:text-left">
             <div className="space-y-2 relative">
