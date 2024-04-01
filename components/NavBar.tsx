@@ -26,7 +26,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-10 transition bg-background max-w-screen-2xl transform -translate-x-1/2 left-1/2 ${
+      className={`sticky md:fixed top-0 w-full z-10 transition bg-background max-w-screen-2xl md:transform md:-translate-x-1/2 md:left-1/2 ${
         scrolled
           ? "bg-opacity-80 backdrop-blur"
           : "bg-opacity-0 backdrop-blur-0"
